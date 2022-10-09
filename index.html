@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/928923595f.js" crossorigin="anonymous"></script>
+    <script defer src="./index.js"></script>
+    <title>Flubel</title>
+</head>
+
+<body>
+    <div id="navbar">
+        <div id="ltxt" onclick="join()">
+            <span id="logo"> <img src="./logo4.png" height="40px"></span>
+            <span id="mtit">Flubel</span>
+        </div>
+        <div id="social">
+            <span class="" id="disc" onclick="window.open('https://discord.gg/ceAv3Njqmk')"><svg xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem"
+                    preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                    <path fill="white"
+                        d="M20.317 4.492c-1.53-.69-3.17-1.2-4.885-1.49a.075.075 0 0 0-.079.036c-.21.369-.444.85-.608 1.23a18.566 18.566 0 0 0-5.487 0a12.36 12.36 0 0 0-.617-1.23A.077.077 0 0 0 8.562 3c-1.714.29-3.354.8-4.885 1.491a.07.07 0 0 0-.032.027C.533 9.093-.32 13.555.099 17.961a.08.08 0 0 0 .031.055a20.03 20.03 0 0 0 5.993 2.98a.078.078 0 0 0 .084-.026a13.83 13.83 0 0 0 1.226-1.963a.074.074 0 0 0-.041-.104a13.201 13.201 0 0 1-1.872-.878a.075.075 0 0 1-.008-.125c.126-.093.252-.19.372-.287a.075.075 0 0 1 .078-.01c3.927 1.764 8.18 1.764 12.061 0a.075.075 0 0 1 .079.009c.12.098.245.195.372.288a.075.075 0 0 1-.006.125c-.598.344-1.22.635-1.873.877a.075.075 0 0 0-.041.105c.36.687.772 1.341 1.225 1.962a.077.077 0 0 0 .084.028a19.963 19.963 0 0 0 6.002-2.981a.076.076 0 0 0 .032-.054c.5-5.094-.838-9.52-3.549-13.442a.06.06 0 0 0-.031-.028ZM8.02 15.278c-1.182 0-2.157-1.069-2.157-2.38c0-1.312.956-2.38 2.157-2.38c1.21 0 2.176 1.077 2.157 2.38c0 1.312-.956 2.38-2.157 2.38Zm7.975 0c-1.183 0-2.157-1.069-2.157-2.38c0-1.312.955-2.38 2.157-2.38c1.21 0 2.176 1.077 2.157 2.38c0 1.312-.946 2.38-2.157 2.38Z" />
+                </svg></span>
+        </div>
+    </div>
+    <div class="bgimg">
+        <div id="header">
+            <span id="stat">Welcome to Flubel</span>
+            <span id="l1">It is a brand new app development company which was opened on 29 Sept 2022. We Aim to make the perfect,best and lightweight apps to ease your interaction with technology</span>
+            <span class="fa-brands fa-github fa-3x fa-beat-fade" id="gthub" onclick="window.open('https://github.com/MrFiend179')"></span>
+        </div>
+    </div>
+    <div id="sysinf">
+        <!--<div id="imgcont">
+            <div class="img"></div>
+        </div>
+        <div id="txtcont"></div>-->
+        <div id="cont1">
+            <div id="contimg">
+                <img src="./cpuflub.PNG" id="img">
+            </div>
+            <div id="decont">
+                <span id="imgtxt" onclick="window.open('https://github.com/MrFiend179/Flubel-System-Info/releases')">Download</span>
+            </div>
+        </div>
+        <div id="cont2">
+            <div id="titcont">
+                <span id="tit1">Flubel-SystemInfo</span>
+            </div>
+            <div id="apcon">
+                <span id="appdesc">A lightweight electron app</span>
+            </div>
+                <div id="tit1descout">
+                    <span id="tit1desc">This tab shows your Processors Specifications in a detailed and easy way so you dont have to bother with the trouble to find the information you need ralating to the processor and waste time. We made it so that all necessary information is displayed in one tab which refreshes every second so you dont miss out anything</span>
+                </div>
+            <div id="not">
+                <span id="notd">(The specs may vary according to your pc)</span>
+            </div>
+            <div id="mblbtnup">
+                <span id="space"></span><span id="cpum" class="fa-solid fa-microchip" onclick="cpu()"></span><span id="memm" class="fa-solid fa-memory" onclick="mem()"></span><span id="diskm" class="fa-solid fa-hard-drive" onclick="disk()"></span><span id="spacee"></span>
+            </div>
+            <div id="mblbtndwn">
+                <span id="space"></span>
+                <span id="osm" class="fa-brands fa-windows" onclick="os()"></span><span id="graphsm" class="fa-solid fa-computer" onclick="gpu()"></span><span id="netm" class="fa-solid fa-wifi"onclick="net()"></span>
+                <span id="spacee"></span>
+            </div>
+            <div id="btnsup">
+                <span id="space"></span><span id="cpu" onclick="cpu()">CPU</span><span id="mem" onclick="mem()">Memory</span><span id="disk" onclick="disk()">Disk</span><span id="space1"></span>
+            </div>
+            <div id="btnsdwn">
+                <span id="space"></span><span id="os" onclick="os()">Os</span><span id="graphs" onclick="gpu()">Graphics</span><span id="network" onclick="net()">Network</span><span id="spa"></span>
+            </div>
+        </div>
+    </div>
+    <div id="cont">
+        <div id="contimg">
+            <img src="./cpuflub.PNG" id="img1">
+        </div>
+        <div id="dwnm">
+            <span id="btn" onclick="window.open('https://github.com/MrFiend179/Flubel-System-Info/releases')">Download</span>
+        </div>
+    </div>
+    <div id="whyus">Why us?</div>
+    <div id="whyusdesc">
+        <div id="r1">
+            <span id="icon1" class="fa-solid fa-feather-pointed fa-3x"></span>
+            <span id="desc1">We make our app lightweight and fast so you dont have to wait for the app to load and overclock your system</span>
+        </div>
+        <div id="r2">
+            <span id="icon2" class="fa-solid fa-box fa-3x" ></span>
+            <span id="desc2">We make lightweight apps so you dont have to worry about your system running out of space while enjoying the best performance by our app</span>
+        </div>
+        <div id="r3">
+            <span id="icon3" class="fa-solid fa-hand-holding-heart fa-3x"></span>
+            <span id="desc3">Our apps are straight forward and easy to use without any complications still you can ask any question from us by Discord &nbsp;<svg id="smdisc" onclick="window.open('https://discord.gg/ceAv3Njqmk')" xmlns="http://www.w3.org/2000/svg" style="vertical-align: -0.125em;" width="1.29em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 199"><path fill="#5865F2" d="M216.856 16.597A208.502 208.502 0 0 0 164.042 0c-2.275 4.113-4.933 9.645-6.766 14.046c-19.692-2.961-39.203-2.961-58.533 0c-1.832-4.4-4.55-9.933-6.846-14.046a207.809 207.809 0 0 0-52.855 16.638C5.618 67.147-3.443 116.4 1.087 164.956c22.169 16.555 43.653 26.612 64.775 33.193A161.094 161.094 0 0 0 79.735 175.3a136.413 136.413 0 0 1-21.846-10.632a108.636 108.636 0 0 0 5.356-4.237c42.122 19.702 87.89 19.702 129.51 0a131.66 131.66 0 0 0 5.355 4.237a136.07 136.07 0 0 1-21.886 10.653c4.006 8.02 8.638 15.67 13.873 22.848c21.142-6.58 42.646-16.637 64.815-33.213c5.316-56.288-9.08-105.09-38.056-148.36ZM85.474 135.095c-12.645 0-23.015-11.805-23.015-26.18s10.149-26.2 23.015-26.2c12.867 0 23.236 11.804 23.015 26.2c.02 14.375-10.148 26.18-23.015 26.18Zm85.051 0c-12.645 0-23.014-11.805-23.014-26.18s10.148-26.2 23.014-26.2c12.867 0 23.236 11.804 23.015 26.2c0 14.375-10.148 26.18-23.015 26.18Z"/></svg></span>    
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="bcent">
+            <div id="r">
+                <span id="imgl"> <img src="./logo4.png" height="40px"></span>
+                <div id="txtbtm">
+                    <span id="cpry">© Flubel by Fiend</span>
+                    <span id="ups">hehe</span>
+                </div>
+            </div>
+            <div id="l">
+                <div id="nh">Need Help?</div>
+                <div id="contbtm">
+                    <span id="daga" onclick="window.open('https://discord.gg/ceAv3Njqmk')">Visit our discord server</span>
+                </div>
+            </div>
+        </div>
+        <div id="rm">
+            <span id="imglm"> <img src="./logo4.png" height="30px"></span>
+            <div id="txtbtmm">
+                <span id="cprym">© Flubel by Fiend</span>
+            </div>
+        </div>
+        <div id="lmb">
+            <span id="nhm">Need Help?</span><span id="daga" onclick="window.open('https://discord.gg/ceAv3Njqmk')">Visit our discord server</span>
+
+        </div>
+    </div>
+</body>
+
+</html>
