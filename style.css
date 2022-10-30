@@ -57,6 +57,9 @@ body{
     align-items: center;
     
 }
+#wiptxt{
+    color: white;
+}
 #header{
     width: 550px;
     height: 300px;
@@ -66,6 +69,26 @@ body{
     flex-direction: column;
     align-items: center;
     z-index: 110;
+    margin-left: 400px;
+}
+#wipp{
+    margin-top: 20px;
+    margin-left: 35%;
+}
+#wipmob{
+    display: none;
+}
+#wip{
+    background-color: #111111;
+    height: 180px;
+    width: 200px;
+    margin-left: 200px;
+    margin-top: 213px;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid white;
 }
 #l1{
     color: white;
@@ -208,6 +231,16 @@ body{
     justify-content: center;
     object-fit: contain;
 }
+#contimgs{
+    height: 70%;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    object-fit: contain;
+}
 #sysinf{
     width: 100%;
     height: 90vh;
@@ -232,10 +265,24 @@ body{
     justify-content: center;
     font-size: 1.1rem;
 }
+#mcapplogo{
+    margin-left: 130px;
+}
+#systeminfoapplogo{
+    margin-left: 130px;
+}
+#titmcapp{
+    padding-top: 30px;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-left: 200px;
+}
 #tit1{
     padding-top: 30px;
     color: white;
     font-size: 1.8rem;
+    margin-left: 200px;
     font-weight: 700;
 }
 #tit1descout{
@@ -244,7 +291,96 @@ body{
     margin-top: 60px;
     height: 160px;
 }
+#featinf{
+    height: 120px;
+}
+#lan1{
+    height: 30px;
+    display: flex;
+}
+#ft1,#ft2{
+    width: 50%;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    font-weight: 500;
+}
+#lan2{
+    height: 30px;
+    display: flex;
+}
+#lan3{
+    height: 30px;
+    display: flex;
+}
+#lan4{
+    height: 30px;
+    display: flex;
+}
+
+#featout,#verout{
+    height: 40px;
+    display: flex;
+}
+#feat,#ver{
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 650;
+    margin-left: 40px;
+}
+#latver{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#lat{
+    width: 60px;
+    height: 24px;
+    margin-left: 10px;
+    border-radius: 35px;
+    border: 1px solid #55ff55;
+}
+#lattit{
+    color: #55ff55;
+    font-size: .9rem;
+}
+#v100{
+    color: white;
+    font-weight: 500;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#v101{
+    color: white;
+    font-weight: 500;
+    margin-left: 70px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
 #tit1desc{
+    color: white;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    height: 160px;
+}
+#verinfo{
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+}
+#tit1descouts{
+    margin-left: 40px;
+    margin-right: 50px;
+    margin-top: 30px;
+    height: 140px;
+}
+#tit1descs{
     color: white;
     font-size: 1.1rem;
     line-height: 2rem;
@@ -521,7 +657,11 @@ body{
 #lmb{
     display: none;
 }
-
+#liner{
+    width: 100%;
+    height: 3px;
+    background-color: white;
+}
 @media screen and (max-width: 786px) {
     #sysinf{
         flex-direction: column;
@@ -549,7 +689,7 @@ body{
         background-color: #111111;
     }
     #tit1descout{
-        height: 240px;
+        height: 225px;
         margin-left: 15px;
         margin-right: 15px;
         margin-top: 10px;
@@ -592,22 +732,24 @@ body{
         padding-top: 10px;
         padding-bottom: 10px;
         display: flex;
-        height: 40px;
+        height: 60px;
         color: white;
         justify-content: space-between;
+        align-items: center;
     }
     #mblbtndwn{
         padding-top: 10px;
         padding-bottom: 10px;
         display: flex;
-        height: 40px;
+        height: 60px;
         justify-content: space-between;
         color: white;
+        align-items: center;
     }
     #cpum{
-        width: 40px;
+        width: 60px;
         border-radius: 50%;
-        height: 40px;
+        height: 60px;
         filter: drop-shadow(0px 0px 3px #333);
         align-items: center;
         justify-content: center;
@@ -615,8 +757,8 @@ body{
         display: flex;
     }
     #memm{
-        width: 40px;
-        height: 40px;
+        width: 60px;
+        height: 60px;
         filter: drop-shadow(0px 0px 3px #333);
         align-items: center;
         justify-content: center;
@@ -625,8 +767,8 @@ body{
         background-color: #141414;
     }
     #osm{
-        width: 40px;
-        height: 40px;
+        width: 60px;
+        height: 60px;
         filter: drop-shadow(0px 0px 3px #333);
         align-items: center;
         justify-content: center;
@@ -635,8 +777,8 @@ body{
         background-color: #141414;
     }
     #diskm{
-        width: 40px;
-        height: 40px;
+        width: 60px;
+        height: 60px;
         filter: drop-shadow(0px 0px 3px #333);
         align-items: center;
         justify-content: center;
@@ -645,8 +787,8 @@ body{
         background-color: #141414;
     }
     #graphsm{
-        width: 40px;
-        height: 40px;
+        width: 60px;
+        height: 60px;
         filter: drop-shadow(0px 0px 3px #333);
         align-items: center;
         justify-content: center;
@@ -655,8 +797,8 @@ body{
         background-color: #141414;
     }
     #netm{
-        width: 40px;
-        height: 40px;
+        width: 60px;
+        height: 60px;
         filter: drop-shadow(0px 0px 3px #333);
         align-items: center;
         justify-content: center;
@@ -812,4 +954,20 @@ body{
     #desc02{
         margin-right: 40px;
     }
+    #wipmob{
+        display: flex;
+        width: 100%;
+        position: fixed;
+        height: 100%;
+        background-color: #111111;
+        z-index: 200;
+        flex-direction: column;
+        border-radius: 19px;
+        top: 55px;
+    }
+    #wiptxtmob{
+        color: white;
+        font-size: 2rem;
+    }
+
 }   
