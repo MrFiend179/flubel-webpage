@@ -69,7 +69,6 @@ body{
     flex-direction: column;
     align-items: center;
     z-index: 110;
-    margin-left: 400px;
 }
 #wipp{
     margin-top: 20px;
@@ -953,21 +952,6 @@ body{
     }
     #desc02{
         margin-right: 40px;
-    }
-    #wipmob{
-        display: flex;
-        width: 100%;
-        position: fixed;
-        height: 100%;
-        background-color: #111111;
-        z-index: 200;
-        flex-direction: column;
-        border-radius: 19px;
-        top: 55px;
-    }
-    #wiptxtmob{
-        color: white;
-        font-size: 2rem;
     }
 
 }   
