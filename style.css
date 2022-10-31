@@ -60,6 +60,9 @@ body{
 #wiptxt{
     color: white;
 }
+#formb{
+    display: none;
+}
 #header{
     width: 550px;
     height: 300px;
@@ -248,6 +251,14 @@ body{
     box-sizing: border-box;
     flex-direction: row;
 }
+#mcbot{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    background-color: #111111;
+    box-sizing: border-box;
+    flex-direction: row;
+}
 #frmwrk{
     color: white;
 }
@@ -297,7 +308,7 @@ body{
     height: 30px;
     display: flex;
 }
-#ft1,#ft2{
+#ft1,#ft2,#ft13,#ft109,#ft12,#ft22,#ft23,#ft21{
     width: 50%;
     height: 100%;
     color: white;
@@ -732,7 +743,7 @@ body{
         padding-bottom: 10px;
         display: flex;
         height: 60px;
-        color: white;
+        color: rgb(197, 197, 197);
         justify-content: space-between;
         align-items: center;
     }
@@ -742,7 +753,7 @@ body{
         display: flex;
         height: 60px;
         justify-content: space-between;
-        color: white;
+        color: rgb(197, 197, 197);
         align-items: center;
     }
     #cpum{
@@ -849,6 +860,7 @@ body{
         display: flex;
         margin-right: 15px;
         margin-left: 15px;
+        height: 60px;
     }
     #btn{
         padding-top: 10px;
@@ -858,6 +870,12 @@ body{
         border-radius: 7px;
         color: white;
         background-color: #141414;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+        font-weight: 600;
     }
     #btn:active{
         background-color: #181818;
@@ -869,32 +887,14 @@ body{
     }
     #whyusdesc{
         flex-direction: column;
-        height: 160vh;
+        height: 90vh;
         justify-content: center;
     }
-    #r1{
+    #r1,#r3,#r2{
         margin-left: 10px;
         margin-right: 10px;
-        height: 280px;
         margin-bottom: 10px;
-        display: flex;
-        flex-direction: column;
-    }
-    #r2{
-        margin-left: 10px;
-        margin-right: 10px;
-        height: 280px;
-        margin-bottom: 10px;
-        display: flex;
-        flex-direction: column;
-    }
-    #r3{
-        margin-left: 10px;
-        margin-right: 10px;
-        height: 280px;
-        margin-bottom: 10px;
-        display: flex;
-        flex-direction: column;
+        height: 180px;
     }
     #bcent{
         display: none;
@@ -932,26 +932,123 @@ body{
         color: white;
         margin-right: 5px;
     }
-    #icon0{
+    #icon0,#icon01,#icon02{
         color: white;
-        margin-left: 15px;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        width: 30%;
+        justify-content: center;
     }
-    #icon01{
+    #desc1,#desc01,#desc02{
+        width: 60%;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #smdisc{
+        display: none;
+    }
+    #titmcapp{
+    padding-top: 30px;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-left: 0px;
+    }
+    #tit1{
+    margin-left: 0px;
+    }
+    #mcapplogo{
+    display: none;
+    }
+    #tit1descouts{
+        width: 90%;
+        margin-left: 5%;
+        height: 240px;
+    }
+    #mcbot{
+        flex-direction: column;
+        height: 105vh;
+    }
+    #systeminfoapplogo{
+        display: none;
+    }
+    #featout{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    #feat{
+        margin-left: 0px;
+    }
+    #lan1{
+        width: 90%;
+    }
+    #ft1{
+        width: 50%;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        margin-left: 12%;
+    }
+    #ft12{
+        margin-left: 11%;
+    }
+    #ft13{
+        margin-left: 11%;
+    }
+    #ft2{
+       margin-left: 0;
+       display: flex;
+       justify-content: center;
+    }
+    #ft109{
+        display: none;
+    }
+    #formb{
+        display: flex;
         color: white;
-        margin-left: 15px;
+        font-weight: 500;
+        width: 50%;
+        align-items: center;
+        display: flex;
+        margin-left: 11%;
     }
-    #icon02{
+    #ft21{
+        display: flex;
         color: white;
-        margin-left: 15px;
+        font-weight: 500;
+        width: 50%;
+        align-items: center;
+        display: flex;
+        margin-left: 9%;
     }
-    #desc1{
-        margin-right: 40px;
+    #ft22{
+        display: flex;
+        color: white;
+        font-weight: 500;
+        width: 50%;
+        align-items: center;
+        display: flex;
+        margin-left: 9%;
     }
-    #desc01{
-        margin-right: 40px;
+    #ft23{
+        display: flex;
+        color: white;
+        font-weight: 500;
+        width: 50%;
+        align-items: center;
+        display: flex;
+        margin-left: 9%;
     }
-    #desc02{
-        margin-right: 40px;
+    #verout{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
-
+    #ver{
+        margin-left: 0;
+    }
 }   
