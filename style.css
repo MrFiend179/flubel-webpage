@@ -675,7 +675,7 @@ body{
 @media screen and (max-width: 786px) {
     #sysinf{
         flex-direction: column;
-        height: 85vh;
+        height: 70vh;
     }
     #tit1{
         padding-top: 0px;
@@ -970,7 +970,7 @@ body{
     }
     #mcbot{
         flex-direction: column;
-        height: 105vh;
+        height: 90vh;
     }
     #systeminfoapplogo{
         display: none;
